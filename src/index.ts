@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import api from '@api/index';
+import 'utils/db/mongodb';
+
 dotenv.config();
 
 const main = express();

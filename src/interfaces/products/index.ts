@@ -1,4 +1,5 @@
 export interface ProductProps {
+    id?: String;
     name: String;
     description: String;
     price: Number;

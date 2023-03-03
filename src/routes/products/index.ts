@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { graphQLDemo } from '@models/graphql';
+import { graphQLDemo } from '@models/products';
 
 const router = Router();
 

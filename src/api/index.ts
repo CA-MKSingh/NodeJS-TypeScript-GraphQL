@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import GraphQLRoutes from '@routes/graphql';
+import GraphQLRoutes from '@routes/products/index';
 
 const router = Router();
 
-router.use('/graphql', GraphQLRoutes);
+router.use('/products', GraphQLRoutes);
 
 export default router;
